@@ -6,5 +6,7 @@ Steps:
 Execute following commands:
 
 >npm install
+
 >npm build
+
 >npm start

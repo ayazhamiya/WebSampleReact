@@ -1,0 +1,31 @@
+.body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: dimgrey;
+    height: 50px;
+}
+.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 grey;
+    text-align: center;
+}
+.task-card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 grey;
+    margin: 20px;
+    flex-basis: 250px;
+    text-align: center;
+}
+.col {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

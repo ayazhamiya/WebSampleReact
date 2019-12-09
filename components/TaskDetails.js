@@ -11,16 +11,13 @@ class TaskDetails extends React.Component {
             modifiedBy: ""
         }
     }
-    handleClick(){
-
-    }
     
     render() {
         let str = ""
         if(this.props.task == null)
             str = "Click a task to view details..."
         else
-            str = "Task Details"
+            str = this.props.TaskDetails
         return (
             <div>
                 {str}

@@ -7,8 +7,10 @@ class TaskCard extends React.Component {
         this.handleClick = this.handleClick.bind(this)
     }
     handleClick(task) {
-        console.log("task div "+ task.title+" clicked")
+        // console.log("task div "+ task.title+" clicked")
+        this.props.fetchData(task)
     }
+
     render() {
         const inLineStyle={}
         const today = new Date();
